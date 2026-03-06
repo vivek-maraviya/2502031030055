@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub | Modern E-Commerce College Project</title>
+    <!-- External Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Linking to external style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo" onclick="location.href='#home'">StyleHub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home (Hero) Section -->
+    <section id="home">
+        <h1>Style Redefined</h1>
+        <p>Discover the latest trends in fashion and technology. Premium quality products designed for your modern lifestyle.</p>
+        <a href="#shop" class="btn">Start Shopping</a>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <div class="container">
+            <h2 class="section-title">Our Collection</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=60" class="product-image" alt="Premium Watch">
+                    <div class="product-info">
+                        <p class="product-name">Premium Watch</p>
+                        <p class="product-price">$199.99</p>
+                        <a href="#product-details" class="btn" style="width:100%; text-align:center;">View Details</a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=60" class="product-image" alt="Headphones">
+                    <div class="product-info">
+                        <p class="product-name">Noise Cancelling Headphones</p>
+                        <p class="product-price">$299.00</p>
+                        <a href="#product-details" class="btn" style="width:100%; text-align:center;">View Details</a>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=500&q=60" class="product-image" alt="Sneakers">
+                    <div class="product-info">
+                        <p class="product-name">Classic Sneakers</p>
+                        <p class="product-price">$85.50</p>
+                        <a href="#product-details" class="btn" style="width:100%; text-align:center;">View Details</a>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=500&q=60" class="product-image" alt="Sunglasses">
+                    <div class="product-info">
+                        <p class="product-name">Designer Sunglasses</p>
+                        <p class="product-price">$150.00</p>
+                        <a href="#product-details" class="btn" style="width:100%; text-align:center;">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Section -->
+    <section id="product-details" style="background: #fff;">
+        <div class="container">
+            <h2 class="section-title">Product Details</h2>
+            <div class="detail-view">
+                <div class="detail-flex">
+                    <div class="detail-img">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80" alt="Watch Detail">
+                    </div>
+                    <div class="detail-content">
+                        <h2>Premium Luxury Watch</h2>
+                        <p class="product-price">$199.99</p>
+                        <p>This exquisite timepiece combines Swiss precision with modern elegance. Featuring a sapphire crystal face and a genuine Italian leather strap, it's designed for durability and style.</p>
+                        
+                        <ul class="specs-list">
+                            <li><strong>Movement:</strong> Swiss Quartz Precision</li>
+                            <li><strong>Case:</strong> 42mm High-Grade Stainless Steel</li>
+                            <li><strong>Waterproof:</strong> 5ATM (Up to 50 meters)</li>
+                            <li><strong>Warranty:</strong> 2 Years International</li>
+                            <li><strong>Strap:</strong> Genuine Italian Leather</li>
+                        </ul>
+                        
+                        <button class="btn" style="width:100%; font-size: 1.2rem;">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Reviews Section -->
+                <div class="review-box">
+                    <h3 style="font-size: 1.8rem; border-bottom: 2px solid var(--secondary-color); display: inline-block; padding-bottom: 5px;">Customer Reviews</h3>
+                    
+                    <div class="review-item">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p><strong>Alex G.</strong> — <em>Verified Buyer</em></p>
+                        <p style="margin-top: 10px;">"Incredible quality! The best watch I've ever owned. Worth every penny. The packaging was also very premium."</p>
+                    </div>
+                    
+                    <div class="review-item">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                        <p><strong>Sarah L.</strong> — <em>Verified Buyer</em></p>
+                        <p style="margin-top: 10px;">"Beautiful design. The strap was a bit stiff at first but became comfortable after a few days. Delivery was very fast!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About StyleHub</h2>
+            <div class="about-grid">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=800&q=80" class="about-img" alt="About Image">
+                </div>
+                <div>
+                    <h3 style="font-size: 2rem; margin-bottom: 20px;">Our Story</h3>
+                    <p style="margin-bottom: 15px;">Founded in 2026, StyleHub was born out of a passion for high-quality products and exceptional customer service. We believe that everyone deserves to own products that are both functional and beautiful.</p>
+                    <p style="margin-bottom: 15px;">Our team works tirelessly to source the best materials and partner with ethical manufacturers to bring you a collection that stands the test of time.</p>
+                    <div style="display: flex; gap: 20px; margin-top: 30px;">
+                        <div style="text-align: center;">
+                            <h4 style="color: var(--secondary-color); font-size: 2rem;">10k+</h4>
+                            <p>Customers</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <h4 style="color: var(--secondary-color); font-size: 2rem;">500+</h4>
+                            <p>Products</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <h4 style="color: var(--secondary-color); font-size: 2rem;">50+</h4>
+                            <p>Brands</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: #fff;">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="form-card">
+                <form>
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="How can we help you today?" required></textarea>
+                    </div>
+                    <button type="button" class="btn" style="width:100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" style="background: #e9ecef;">
+        <div class="container">
+            <h2 class="section-title">Account Access</h2>
+            <div class="form-card">
+                <h3 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">Login</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter password" required>
+                    </div>
+                    <button type="button" class="btn" style="width:100%;">Login</button>
+                    <p style="text-align: center; margin-top: 25px;">Don't have an account? <a href="#signup" style="color: var(--secondary-color); font-weight: bold;">Sign Up Now</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup">
+        <div class="container">
+            <h2 class="section-title">Join StyleHub</h2>
+            <div class="form-card">
+                <h3 style="text-align: center; margin-bottom: 30px; font-size: 1.8rem;">Create Account</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Create a strong password" required>
+                    </div>
+                    <button type="button" class="btn" style="width:100%;">Register Now</button>
+                    <p style="text-align: center; margin-top: 25px;">Already a member? <a href="#login" style="color: var(--secondary-color); font-weight: bold;">Login here</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div style="font-size: 2rem; font-weight: bold; margin-bottom: 20px;">StyleHub</div>
+            <p>&copy; 2026 StyleHub E-Commerce College Project. All rights reserved.</p>
+            <p style="margin-top: 15px; font-size: 0.9rem; opacity: 0.6;">Built with HTML5 & CSS3 for Academic Purposes.</p>
+            <div style="margin-top: 25px; font-size: 1.5rem;">
+                <i class="fab fa-facebook" style="margin: 0 10px; cursor: pointer;"></i>
+                <i class="fab fa-twitter" style="margin: 0 10px; cursor: pointer;"></i>
+                <i class="fab fa-instagram" style="margin: 0 10px; cursor: pointer;"></i>
+                <i class="fab fa-linkedin" style="margin: 0 10px; cursor: pointer;"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
